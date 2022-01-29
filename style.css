@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* Some basic universal declarations */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+    /* Formatting the style of the web page */
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* First section of the web page */
+
+    .section_one {
+        display: flex;
+        flex-direction: column;
+        background-color: #62a4ff;
+        height: 65vh;
+    }
+    
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 24px;
+        color: white;
+    }
+
+    .nav ul {
+        display: flex;
+        gap: 20px;
+    }
+  
+    li {
+        list-style-type: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+
+    .content_below_header {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+       
+    }
+
+    .contentbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .leftcontent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text_one,
+    .text_two {
+        margin-bottom: 15px;
+        color: white;
+    }
+
+    .text_one {
+        font-size: 42px;
+        font-weight: bolder;
+    }
+
+    .text_two {
+        font-size: 25px;
+    }
+
+    button {
+        background-color: #62a4ff;
+        color: white;
+        padding: 10px;
+        width: 180px;
+        font-size: 18px;
+        border-color: white;
+        border-radius: 15px;
+        border-style: solid;
+    }
+
+    /* Second section of the web page */
+
+   .section_two {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .title_section_two {
+        display: flex;
+        justify-content: center;
+        font: 36px bolder solid black;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+   .figure {
+       display: flex;
+       justify-content: space-evenly;
+       margin-top: 10px;
+       margin-bottom: 40px;
+   }
+
+   .figure_drawing {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+   }
+   
+   img {
+       height: 320px;
+       width: 320px;
+       margin-bottom: 20px;
+   }
+
+   .subjects {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+  }
+  
+  .sub_box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid black;
+    border-style: ridge;
+    border-radius: 12px;
+    padding: 15px;
+    width: 200px;
+    margin: 5px;
+  }
+ 
+  
+  .imagemath img {
+    margin: 0%;
+    padding: 0%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .imagescience img {
+    margin: 0%;
+    padding: 0%;
+    height: 45px;
+    width: 45px;
+  }
+
+  .imageengineering img,
+  .imagecs img {
+    margin: 0%;
+    padding: 0%;
+    height: 45px;
+    width: 45px;
+  }
+
+  .imagels img {
+    margin: 0%;
+    padding: 0%;
+    height: 55px;
+    width: 55px;
+  }
+
+  .imageam img {
+    margin: 0%;
+    padding: 0%;
+    height: 35px;
+    width: 35px;
+  }
+
+
+
+    /* Third section of the web page */
+
+   .section_three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 20px;
+    height: 40vh;
+    background-color: #e6e6e6;
+    }
+
+    .quoter {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+
+    /* Forth section of the web page */
+
+    .section_four {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+
+    .contenttwo {
+        display: flex;
+        align-items: center;
+        background-color: #62a4ff;
+        color: white;
+        font-weight: bolder;
+        padding: 60px;
+        border-radius: 12px;
+    }
+
+    .buttonsignup {
+        margin-left: 40px;
+    }
+
+    /* Footer of the web page */
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        color: white;
+        background-color: #62a4ff;
+    }
+
+    
